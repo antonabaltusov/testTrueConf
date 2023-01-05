@@ -1,25 +1,30 @@
-<h1>Тестовое задание в TreuConf</h1>
-<h2>«Эмулятор лифта»</h2>
+<h1 align="center">Тестовое задание в TreuConf</h1>
+<h2 align="center">«Эмулятор лифта»</h2>
 
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
-npm run serve
+npm run start
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
 ### Lints and fixes files
+
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Хочется отметить, что логику выбора ближайшего лифта сделал с учетом времени выполнения стека вызовов у лифта. Не совсем было понятно что значит бижайший лифт, так как если он рядом по высоте а у него еще 10 вызовов то он нам точно не нужен.
+
+И да, я было забыл про раздельные коммиты и закомитил все одним разом не считая первого и последнего.
