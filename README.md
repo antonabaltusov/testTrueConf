@@ -1,4 +1,4 @@
-<h1 align="center">Тестовое задание в TreuConf</h1>
+<h1 align="center">Тестовое задание в TrueConf</h1>
 <h2 align="center">«Эмулятор лифта»</h2>
 
 ## Project setup
